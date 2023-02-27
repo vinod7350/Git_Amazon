@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteSingle]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestSingle(failed)">
+    <classes>
+      <class name="TestNG.Intro_Suit">
+        <methods>
+          <include name="test"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestNG.Intro_Suit -->
+      <class name="TestNG.LapTopTestNG">
+        <methods>
+          <include name="testLappy"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="afterTest"/>
+          <include name="aftermethod"/>
+          <include name="launchbrowser"/>
+          <include name="beforeMethod"/>
+          <include name="include"/>
+        </methods>
+      </class> <!-- TestNG.LapTopTestNG -->
+      <class name="TestNG.SellTestNG">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="launchbrowser"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="test1BestSeller"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- TestNG.SellTestNG -->
+    </classes>
+  </test> <!-- TestSingle(failed) -->
+</suite> <!-- Failed suite [SuiteSingle] -->
